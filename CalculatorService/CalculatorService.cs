@@ -18,5 +18,17 @@ namespace CalculatorService
             var result = n1 - n2;
             return $"{n1} - {n2} = {result}";
         }
+
+        public string Multiple(int n1, int n2)
+        {
+            var result = n1 * n2;
+            return $"{n1} x {n2} = {result}";
+        }
+
+        public string Divide(int n1, int n2)
+        {
+            var result = n1 / n2;
+            return $"{n1} ÷ {n2} = {result}";
+        }
     }
 }

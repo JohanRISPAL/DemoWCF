@@ -20,6 +20,12 @@ namespace Client.CalculatorServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Substraction", ReplyAction="http://tempuri.org/ICalculator/SubstractionResponse")]
         string Substraction(int n1, int n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Multiple", ReplyAction="http://tempuri.org/ICalculator/MultipleResponse")]
+        string Multiple(int n1, int n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Divide", ReplyAction="http://tempuri.org/ICalculator/DivideResponse")]
+        string Divide(int n1, int n2);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -55,6 +61,14 @@ namespace Client.CalculatorServiceReference {
         
         public string Substraction(int n1, int n2) {
             return base.Channel.Substraction(n1, n2);
+        }
+        
+        public string Multiple(int n1, int n2) {
+            return base.Channel.Multiple(n1, n2);
+        }
+        
+        public string Divide(int n1, int n2) {
+            return base.Channel.Divide(n1, n2);
         }
     }
 }

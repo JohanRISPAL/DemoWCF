@@ -28,6 +28,22 @@ namespace Client.ServiceManager
             Console.WriteLine(_client.Substraction(n1, n2));
         }
 
+        internal void Multiple()
+        {
+            var n1 = ReadUserInputAsInt("Select the first number");
+            var n2 = ReadUserInputAsInt("Select the second number");
+
+            Console.WriteLine(_client.Multiple(n1, n2));
+        }
+
+        internal void Divide()
+        {
+            var n1 = ReadUserInputAsInt("Select the first number");
+            var n2 = ReadUserInputAsInt("Select the second number");
+
+            Console.WriteLine(_client.Divide(n1, n2));
+        }
+
         private int ReadUserInputAsInt(string message)
         {
             var parseFailed = true;

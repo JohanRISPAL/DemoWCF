@@ -14,5 +14,11 @@ namespace CalculatorService
 
         [OperationContract]
         string Substraction(int n1, int n2);
+
+        [OperationContract]
+        string Multiple(int n1, int n2);
+
+        [OperationContract]
+        string Divide(int n1, int n2);
     }
 }

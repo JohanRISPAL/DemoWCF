@@ -23,6 +23,8 @@ namespace Client
             Console.WriteLine("1 - Say hello with your name");
             Console.WriteLine("2 - Add two numbers");
             Console.WriteLine("3 - Substract two numbers");
+            Console.WriteLine("4 - Multiple two numbers");
+            Console.WriteLine("5 - Divide two numbers");
             Console.WriteLine("10 - Exit");
         }
 
@@ -62,6 +64,14 @@ namespace Client
 
                 case 3:
                     _calculatorManager.Substraction();
+                    break;
+
+                case 4:
+                    _calculatorManager.Multiple();
+                    break;
+
+                case 5:
+                    _calculatorManager.Divide();
                     break;
 
             }
