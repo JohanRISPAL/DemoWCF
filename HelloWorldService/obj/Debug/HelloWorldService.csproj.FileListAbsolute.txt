@@ -1,0 +1,7 @@
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.dll.config
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.dll
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.pdb
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.dll
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.pdb
+C:\Users\johan\source\repos\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.csproj.AssemblyReference.cache

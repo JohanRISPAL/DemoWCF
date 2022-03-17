@@ -1,0 +1,11 @@
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\Client.exe.config
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\Client.exe
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\Client.pdb
+C:\Users\johan\source\repos\HelloWorldService\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\HelloWorldService\Client\obj\Debug\Client.exe
+C:\Users\johan\source\repos\HelloWorldService\Client\obj\Debug\Client.pdb
+C:\Users\johan\source\repos\HelloWorldService\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\CalculatorService.dll
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\CalculatorService.pdb
+C:\Users\johan\source\repos\HelloWorldService\Client\bin\Debug\CalculatorService.dll.config
+C:\Users\johan\source\repos\HelloWorldService\Client\obj\Debug\Client.csproj.CopyComplete

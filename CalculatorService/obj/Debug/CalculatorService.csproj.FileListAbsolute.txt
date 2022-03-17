@@ -1,0 +1,7 @@
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\bin\Debug\CalculatorService.dll.config
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\bin\Debug\CalculatorService.dll
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\bin\Debug\CalculatorService.pdb
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\obj\Debug\CalculatorService.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\obj\Debug\CalculatorService.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\obj\Debug\CalculatorService.dll
+C:\Users\johan\source\repos\HelloWorldService\CalculatorService\obj\Debug\CalculatorService.pdb
