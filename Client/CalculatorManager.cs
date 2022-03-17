@@ -17,18 +17,25 @@ namespace Client
 
         internal void Addition()
         {
-            var parseFailed = true;
-            var n1 = 0;
-            var n2 = 0;
+            var n1 = ReadUserInputAsInt("Select the first number");
+            var n2 = ReadUserInputAsInt("Select the second number");
 
+            Console.WriteLine(client.Addition(n1, n2));
+        }
+
+        private int ReadUserInputAsInt(string message)
+        {
+            var parseFailed = true;
+
+            var number = 0;
             do
             {
-                Console.WriteLine("Select the first number");
+                Console.WriteLine(message);
                 var n1AsString = Console.ReadLine();
 
                 try
                 {
-                    parseFailed = int.TryParse(n1AsString, out n1);
+                    parseFailed = int.TryParse(n1AsString, out number);
                 }
                 catch (Exception e)
                 {
@@ -36,22 +43,7 @@ namespace Client
                 }
             } while (!parseFailed);
 
-            do
-            {
-                Console.WriteLine("Select the second number");
-                var n2AsString = Console.ReadLine();
-
-                try
-                {
-                    parseFailed = int.TryParse(n2AsString, out n2);
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            } while (!parseFailed);
-
-            Console.WriteLine(client.Addition(n1, n2));
+            return number;
         }
     }
 }
