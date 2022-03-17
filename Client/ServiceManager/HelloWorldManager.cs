@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Client
+namespace Client.ServiceManager
 {
     internal class HelloWorldManager
     {
-
-        HelloWorldClient client;
+        private readonly HelloWorldClient _client;
 
         public HelloWorldManager()
         {
-            client = new HelloWorldClient("NetTcpBinding_IHelloWorld");
+            _client = new HelloWorldClient("NetTcpBinding_IHelloWorld");
         }
 
         internal void SayHello()
@@ -27,7 +26,7 @@ namespace Client
             person.Last = Console.ReadLine();
 
 
-            Console.WriteLine(client.SayHello(person));
+            Console.WriteLine(_client.SayHello(person));
         }
     }
 }

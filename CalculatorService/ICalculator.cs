@@ -11,5 +11,8 @@ namespace CalculatorService
     {
         [OperationContract]
         string Addition(int n1, int n2);
+
+        [OperationContract]
+        string Substraction(int n1, int n2);
     }
 }

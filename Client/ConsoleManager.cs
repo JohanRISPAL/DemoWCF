@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Client.ServiceManager;
 
 namespace Client
 {
@@ -21,6 +22,7 @@ namespace Client
             Console.WriteLine("Welcome to my wcf demo project !");
             Console.WriteLine("1 - Say hello with your name");
             Console.WriteLine("2 - Add two numbers");
+            Console.WriteLine("3 - Substract two numbers");
             Console.WriteLine("10 - Exit");
         }
 
@@ -56,6 +58,10 @@ namespace Client
 
                 case 2:
                     _calculatorManager.Addition();
+                    break;
+
+                case 3:
+                    _calculatorManager.Substraction();
                     break;
 
             }

@@ -17,6 +17,9 @@ namespace Client.CalculatorServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Addition", ReplyAction="http://tempuri.org/ICalculator/AdditionResponse")]
         string Addition(int n1, int n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Substraction", ReplyAction="http://tempuri.org/ICalculator/SubstractionResponse")]
+        string Substraction(int n1, int n2);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -48,6 +51,10 @@ namespace Client.CalculatorServiceReference {
         
         public string Addition(int n1, int n2) {
             return base.Channel.Addition(n1, n2);
+        }
+        
+        public string Substraction(int n1, int n2) {
+            return base.Channel.Substraction(n1, n2);
         }
     }
 }
